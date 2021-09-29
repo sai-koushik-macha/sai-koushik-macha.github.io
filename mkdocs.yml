@@ -1,0 +1,36 @@
+# Project information
+site_name: Koushik's Blog
+site_description: My Online Portfolio
+site_author: Sai Koushik
+
+# Repository
+repo_name: sai-koushik-macha/sai-koushik-macha.github.io
+repo_url: https://github.com/sai-koushik-macha/sai-koushik-macha.github.io
+
+# Theme settings
+theme:
+  name: "material"
+  language: en
+  icon:
+    logo: "fontawesome/solid/feather"
+  palette:
+    primary: red
+    accent: green
+  font:
+    text: Roboto
+    code: Roboto Mono
+
+# Nav
+nav:
+  - Home: index.md
+  - Vim Editor:
+      - Vim Basics: vim/vim-basics.md
+
+extra_css: [extra.css]
+
+extra:
+  social:
+    - icon: "fontawesome/brands/github"
+      link: "https://github.com/sai-koushik-macha"
+    - icon: "fontawesome/brands/linkedin"
+      link: "https://www.linkedin.com/in/sai-koushik-macha-75ab51199/"
