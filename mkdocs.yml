@@ -3,6 +3,8 @@ site_name: Koushik's Blog
 site_description: My Online Portfolio
 site_author: Sai Koushik
 
+site_url: https://sai-koushik-macha.github.io/
+
 # Repository
 repo_name: sai-koushik-macha/sai-koushik-macha.github.io
 repo_url: https://github.com/sai-koushik-macha/sai-koushik-macha.github.io
