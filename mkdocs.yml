@@ -2,7 +2,6 @@
 site_name: Koushik's Blog
 site_description: My Online Portfolio
 site_author: Sai Koushik
-
 site_url: https://sai-koushik-macha.github.io/
 
 # Repository
@@ -16,11 +15,25 @@ theme:
   icon:
     logo: "fontawesome/solid/feather"
   palette:
-    primary: red
-    accent: green
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: deep purple
+      accent: purple
+      toggle:
+        icon: material/lightbulb-outline
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: deep purple
+      accent: purple
+      toggle:
+        icon: material/lightbulb
+        name: Switch to light mode
   font:
     text: Roboto
     code: Roboto Mono
+  features:
+    - navigation.tabs
 
 # Nav
 nav:
